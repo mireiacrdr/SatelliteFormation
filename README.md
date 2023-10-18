@@ -5,3 +5,4 @@ Implementation of a modified 3D Eden Growth model with swimmers for the paper Mo
 
 [![DOI](https://zenodo.org/badge/575789391.svg)](https://zenodo.org/badge/latestdoi/575789391)
 
+![satellites](https://github.com/mireiacrdr/SatelliteFormation/assets/48175884/7f6ce460-ac76-43d8-977f-bbe7d66cbdae)
