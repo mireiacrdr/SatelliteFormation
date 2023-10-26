@@ -1,5 +1,5 @@
 # Motility mediates satellite formation in confined biofilms
-Implementation of a modified 3D Eden Growth model with swimmers for the paper Motility mediates satellite formation in confined biofilms
+Implementation of a modified 3D Eden Growth model with swimmers for: Cordero, M., Mitarai, N. & Jauffred, L. Motility mediates satellite formation in confined biofilms. ISME J 17, 1819–1827 (2023). 
 
 [![The ISME Journal](https://img.shields.io/badge/ISMEJ-10.1038/s42003--023--05098--1-green?style=flat)](https://doi.org/10.1038/s41396-023-01494-x)
 
