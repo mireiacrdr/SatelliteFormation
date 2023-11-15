@@ -64,9 +64,8 @@ int main() {
     double timepas=0;
     Array3D lattice(length, length, length, 0);
 
-
-    ofstream MyFile("ResultsQ13.txt");
-    ofstream File("EvolutionQ13.txt");
+    ofstream MyFile("Results.txt");
+    ofstream File("Evolution.txt");
 
     Bacteria first{int (length/2), int (length/2), int (length/2),0,6};
     vector<Bacteria> colony;
@@ -162,10 +161,7 @@ int main() {
         else {
 
             std::uniform_int_distribution<int> disn(0, swim.size() - 1);
-            //std::uniform_real_distribution<double> rad(0, 1);
             std::normal_distribution<double> gaussian(0.0, 2.0);
-            //std::uniform_real_distribution<double> directionT(0, M_PI);
-            //std::uniform_real_distribution<double> directionP(0, 2*M_PI);
 
             int p = disn(engine);
             av_point aswim = swim[p];
@@ -174,13 +170,6 @@ int main() {
             int sz = aswim.z;
             int no_swim=0;
 
-            //double distance = gaussian(engine);
-            //double phi = directionP(engine);
-            //double theta = directionT(engine);
-
-            //int randx = distance*sin(theta)*cos(phi);
-            //int randy = distance*sin(theta)*sin(phi);
-            //int randz = distance*cos(theta);
             int randx =gaussian(engine);
             int randy =gaussian(engine);
             int randz =gaussian(engine);
@@ -255,7 +244,7 @@ int main() {
     }
 
 
-    string directory = "LatQ13//";
+    string directory = "Lat//";
     string fileName = "Stack";
     string fileType = ".txt";
     const int maxDigits = 4;
